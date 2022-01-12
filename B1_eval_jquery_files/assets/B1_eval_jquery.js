@@ -30,8 +30,20 @@ $(".square").keydown(function(e){
         break;
     }
 });
-
-
+$(".square btn").ready(function() {
+    $('#scaleDown').click(function() {
+        $('#scaleDown').css('width', '-=20px');
+    });
+    $('#scaleUp').click(function() {
+        $('#scaleUp').css('width', '+=20px');
+    });
+});
+$(".square shapeCircle").click(function(){
+    
+})
+$(".square shapeSquare").click(function(){
+    
+})
 
 
 function jumbotron(){
